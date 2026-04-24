@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- Splash Screen theme -->
+<style name="Theme.CivicIQ" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">#0A0E27</item>
+    <item name="postSplashScreenTheme">@style/Theme.CivicIQ.Main</item>
+</style>
+
+<!-- Main Compose app theme — NoActionBar is correct for Compose -->
+<style name="Theme.CivicIQ.Main" parent="android:Theme.Material.NoActionBar">
+    <item name="android:statusBarColor">#0A0E27</item>
+    <item name="android:navigationBarColor">#0A0E27</item>
+    <item name="android:windowBackground">#0A0E27</item>
+    <item name="android:windowLightStatusBar">false</item>
+    <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+</style>
+
+</resources>

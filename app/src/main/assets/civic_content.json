@@ -1,0 +1,272 @@
+{
+  "legislature": {
+    "flashcards": [
+      {
+        "id": "leg_fc_1",
+        "front_title": "What is Parliament?",
+        "front_summary": "The supreme legislative body of India",
+        "back_explanation": "Parliament of India consists of the President, the Rajya Sabha (Council of States), and the Lok Sabha (House of the People). It is the supreme legislative body at the national level.",
+        "back_example": "Example: The Parliament passed the GST Amendment in 2017, transforming India's tax structure.",
+        "category": "legislature"
+      },
+      {
+        "id": "leg_fc_2",
+        "front_title": "Lok Sabha",
+        "front_summary": "The Lower House of Parliament — directly elected",
+        "back_explanation": "Lok Sabha has 545 members — 543 elected by direct popular vote, 2 nominated by the President from the Anglo-Indian community (now abolished). Members serve 5-year terms unless dissolved early.",
+        "back_example": "Example: The 17th Lok Sabha was constituted in 2019 after general elections where 600+ million votes were cast.",
+        "category": "legislature"
+      },
+      {
+        "id": "leg_fc_3",
+        "front_title": "Rajya Sabha",
+        "front_summary": "The Upper House — permanent body representing states",
+        "back_explanation": "Rajya Sabha has 250 members — 238 elected by state legislative assemblies and 12 nominated by the President for expertise in arts, science, literature, and social service. It is a permanent body, not subject to dissolution.",
+        "back_example": "Example: Rajya Sabha members like Amartya Sen (nominated) and former PM Manmohan Singh have contributed significantly.",
+        "category": "legislature"
+      },
+      {
+        "id": "leg_fc_4",
+        "front_title": "Money Bill",
+        "front_summary": "Bills related to taxation and government expenditure",
+        "back_explanation": "A Money Bill deals with taxation, borrowing, appropriation of funds from the Consolidated Fund of India. It can only be introduced in Lok Sabha, and Rajya Sabha can only make recommendations — not reject it.",
+        "back_example": "Example: The Finance Bill containing the Union Budget is a Money Bill introduced every year.",
+        "category": "legislature"
+      },
+      {
+        "id": "leg_fc_5",
+        "front_title": "Question Hour",
+        "front_summary": "The first hour of every Parliament session",
+        "back_explanation": "Question Hour is the first hour of every parliamentary sitting where members can ask questions to ministers about government activities. There are Starred Questions (oral answers) and Unstarred Questions (written answers).",
+        "back_example": "Example: MPs used Question Hour to question the government on COVID-19 vaccine procurement in 2021.",
+        "category": "legislature"
+      },
+      {
+        "id": "leg_fc_6",
+        "front_title": "Zero Hour",
+        "front_summary": "Informal device for raising urgent matters",
+        "back_explanation": "Zero Hour starts immediately after Question Hour. Members can raise matters of urgent public importance without prior notice. It is unique to Indian parliamentary practice — not mentioned in Rules of Procedure.",
+        "back_example": "Example: Zero Hour was used to raise concerns about the Pulwama attack aftermath.",
+        "category": "legislature"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "leg_q_1",
+        "question": "How many seats are there in the Lok Sabha?",
+        "options": ["543", "545", "550", "552"],
+        "correct_answer": 0,
+        "explanation": "Lok Sabha has 543 elected seats. Originally 545 (including 2 Anglo-Indian nominated seats), the nominated seats were abolished by the 104th Constitutional Amendment (2020)."
+      },
+      {
+        "id": "leg_q_2",
+        "question": "Who presides over the Lok Sabha?",
+        "options": ["President", "Vice President", "Speaker", "Prime Minister"],
+        "correct_answer": 2,
+        "explanation": "The Speaker presides over the Lok Sabha. Currently, the Speaker is elected by members of Lok Sabha from among themselves."
+      },
+      {
+        "id": "leg_q_3",
+        "question": "What is the minimum age to become a member of Rajya Sabha?",
+        "options": ["21 years", "25 years", "30 years", "35 years"],
+        "correct_answer": 2,
+        "explanation": "A person must be at least 30 years old to be a member of Rajya Sabha, while the minimum age for Lok Sabha membership is 25 years."
+      },
+      {
+        "id": "leg_q_4",
+        "question": "Which Article of the Constitution deals with the composition of Parliament?",
+        "options": ["Article 75", "Article 79", "Article 81", "Article 85"],
+        "correct_answer": 1,
+        "explanation": "Article 79 states that there shall be a Parliament for the Union which shall consist of the President and two Houses known as the Council of States (Rajya Sabha) and the House of the People (Lok Sabha)."
+      },
+      {
+        "id": "leg_q_5",
+        "question": "How many members can the President nominate to Rajya Sabha?",
+        "options": ["2", "6", "10", "12"],
+        "correct_answer": 3,
+        "explanation": "The President can nominate 12 members to Rajya Sabha from persons having special knowledge or practical experience in literature, science, art, and social service."
+      }
+    ],
+    "spin_topics": ["Article 79", "Lok Sabha", "Rajya Sabha", "Money Bill", "Question Hour", "Zero Hour", "Budget", "Speaker"]
+  },
+  "executive": {
+    "flashcards": [
+      {
+        "id": "exe_fc_1",
+        "front_title": "The President of India",
+        "front_summary": "Constitutional head of the Union Executive",
+        "back_explanation": "The President is the constitutional head of the executive of the Union. Executive power is vested in the President but exercised on the advice of the Council of Ministers (Article 74). The President is elected by an electoral college.",
+        "back_example": "Example: President Droupadi Murmu became India's first tribal woman President in 2022.",
+        "category": "executive"
+      },
+      {
+        "id": "exe_fc_2",
+        "front_title": "Prime Minister",
+        "front_summary": "Real executive head — leads the Council of Ministers",
+        "back_explanation": "The Prime Minister is the head of the Council of Ministers and the real executive authority. Appointed by the President, the PM must command majority in Lok Sabha. The PM is the link between the President and the Cabinet.",
+        "back_example": "Example: The PM chairs Cabinet meetings and coordinates government policies across all ministries.",
+        "category": "executive"
+      },
+      {
+        "id": "exe_fc_3",
+        "front_title": "Council of Ministers",
+        "front_summary": "The executive branch that aids and advises the President",
+        "back_explanation": "Article 74 states the Council of Ministers with the PM shall aid and advise the President. It consists of Cabinet Ministers, Ministers of State, and Deputy Ministers. Collectively responsible to Lok Sabha.",
+        "back_example": "Example: Union Cabinet includes Finance, Home, Defence, and External Affairs ministers.",
+        "category": "executive"
+      },
+      {
+        "id": "exe_fc_4",
+        "front_title": "Ordinance Power",
+        "front_summary": "Presidential power to legislate when Parliament is not in session",
+        "back_explanation": "Under Article 123, the President can promulgate Ordinances when Parliament is not in session and there is an urgent need. Ordinances have the same force as Acts but must be approved by Parliament within 6 weeks of its reassembly.",
+        "back_example": "Example: The Farm Laws Ordinances of 2020 were promulgated when Parliament was not in session.",
+        "category": "executive"
+      },
+      {
+        "id": "exe_fc_5",
+        "front_title": "National Security Council",
+        "front_summary": "Strategic policy body for security matters",
+        "back_explanation": "NSC is the apex body for national security and strategic interests. Chaired by the PM, it includes the Home, Defence, Finance, and External Affairs Ministers. Provides integrated advice on political, economic, energy, and security issues.",
+        "back_example": "Example: NSC was convened after the Balakot Air Strike in 2019 for strategic assessment.",
+        "category": "executive"
+      },
+      {
+        "id": "exe_fc_6",
+        "front_title": "Governor",
+        "front_summary": "Constitutional head of State executive",
+        "back_explanation": "The Governor is the constitutional head of state government, appointed by the President under Article 155. Acts as the President's representative in states. Exercises real powers during President's Rule.",
+        "back_example": "Example: Governor can recommend President's Rule under Article 356 if state government fails.",
+        "category": "executive"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "exe_q_1",
+        "question": "Under which Article is the President of India elected?",
+        "options": ["Article 52", "Article 54", "Article 58", "Article 60"],
+        "correct_answer": 1,
+        "explanation": "Article 54 deals with the election of the President by an electoral college consisting of elected members of both Houses of Parliament and elected members of the state Legislative Assemblies."
+      },
+      {
+        "id": "exe_q_2",
+        "question": "What is the term of the President of India?",
+        "options": ["4 years", "5 years", "6 years", "Till death"],
+        "correct_answer": 1,
+        "explanation": "The President of India holds office for a term of 5 years from the date of entering upon office, as per Article 56 of the Constitution."
+      },
+      {
+        "id": "exe_q_3",
+        "question": "Who appoints the Prime Minister of India?",
+        "options": ["Lok Sabha Speaker", "Chief Justice of India", "President", "Vice President"],
+        "correct_answer": 2,
+        "explanation": "The President of India appoints the Prime Minister (Article 75). Conventionally, the leader commanding majority in Lok Sabha is appointed as PM."
+      },
+      {
+        "id": "exe_q_4",
+        "question": "Which Article gives the President the power to promulgate Ordinances?",
+        "options": ["Article 121", "Article 123", "Article 124", "Article 129"],
+        "correct_answer": 1,
+        "explanation": "Article 123 grants the President power to promulgate Ordinances when Parliament is not in session. Ordinances must be laid before Parliament within 6 weeks of reassembly."
+      },
+      {
+        "id": "exe_q_5",
+        "question": "How is the Vice President of India elected?",
+        "options": ["Direct election by people", "By Electoral College of states", "By members of both Houses of Parliament", "By Rajya Sabha only"],
+        "correct_answer": 2,
+        "explanation": "The Vice President is elected by members of an electoral college consisting of members of both Houses of Parliament (Article 66), unlike the President whose election includes state MLAs."
+      }
+    ],
+    "spin_topics": ["President", "PM", "Cabinet", "Ordinance", "Article 74", "NSC", "Governor", "IAS"]
+  },
+  "judiciary": {
+    "flashcards": [
+      {
+        "id": "jud_fc_1",
+        "front_title": "Supreme Court of India",
+        "front_summary": "The apex court — guardian of the Constitution",
+        "back_explanation": "Established under Article 124, the Supreme Court is the final interpreter of the Constitution. It has original, appellate, and advisory jurisdiction. Currently has 34 judges including the Chief Justice of India.",
+        "back_example": "Example: SC's landmark Kesavananda Bharati case (1973) established the Basic Structure doctrine.",
+        "category": "judiciary"
+      },
+      {
+        "id": "jud_fc_2",
+        "front_title": "Writ Jurisdiction",
+        "front_summary": "Power to issue writs for enforcement of fundamental rights",
+        "back_explanation": "Under Article 32, the Supreme Court can issue five types of writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo Warranto. High Courts have similar power under Article 226 with wider scope.",
+        "back_example": "Example: Habeas Corpus writ was extensively used during Emergency (1975-77) to challenge illegal detentions.",
+        "category": "judiciary"
+      },
+      {
+        "id": "jud_fc_3",
+        "front_title": "Judicial Review",
+        "front_summary": "Power to examine constitutionality of laws",
+        "back_explanation": "Judicial Review is the power of courts to examine whether legislation or executive action is in conformity with the Constitution. Implied in the Indian Constitution — not explicitly stated. Courts can strike down unconstitutional laws.",
+        "back_example": "Example: SC struck down NJAC (National Judicial Appointments Commission) in 2015 as unconstitutional.",
+        "category": "judiciary"
+      },
+      {
+        "id": "jud_fc_4",
+        "front_title": "Basic Structure Doctrine",
+        "front_summary": "Parliament cannot amend the basic features of the Constitution",
+        "back_explanation": "Established in Kesavananda Bharati v. State of Kerala (1973), this doctrine holds that Parliament cannot amend the 'basic structure' of the Constitution. Basic features include sovereignty, democracy, fundamental rights, and separation of powers.",
+        "back_example": "Example: SC used Basic Structure doctrine to strike down 99th Amendment establishing NJAC in 2015.",
+        "category": "judiciary"
+      },
+      {
+        "id": "jud_fc_5",
+        "front_title": "PIL — Public Interest Litigation",
+        "front_summary": "Any citizen can approach courts for public interest",
+        "back_explanation": "PIL allows any citizen to file a petition in the Supreme Court (Article 32) or High Court (Article 226) in matters of public interest. Does not require the petitioner to be personally aggrieved. India's judiciary pioneered this concept.",
+        "back_example": "Example: The famous Vineet Narain case (Hawala scandal) was initiated through PIL, leading to CBI reforms.",
+        "category": "judiciary"
+      },
+      {
+        "id": "jud_fc_6",
+        "front_title": "Collegium System",
+        "front_summary": "Judges appointing judges — controversial practice",
+        "back_explanation": "The Collegium system evolved through three landmark cases (Three Judges Cases). The SC collegium, led by CJI and 4 senior judges, recommends appointments and transfers of SC and HC judges. No constitutional basis — judicially evolved.",
+        "back_example": "Example: The NJAC Act was struck down in 2015, reinforcing the Collegium system despite controversy.",
+        "category": "judiciary"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "jud_q_1",
+        "question": "Under which Article can a citizen directly approach the Supreme Court for enforcement of Fundamental Rights?",
+        "options": ["Article 19", "Article 21", "Article 32", "Article 226"],
+        "correct_answer": 2,
+        "explanation": "Article 32 is the 'Right to Constitutional Remedies' — Dr. Ambedkar called it the 'heart and soul' of the Constitution. It allows citizens to directly approach the SC for enforcement of Fundamental Rights."
+      },
+      {
+        "id": "jud_q_2",
+        "question": "Which writ is issued to secure the release of a person detained unlawfully?",
+        "options": ["Mandamus", "Quo Warranto", "Habeas Corpus", "Certiorari"],
+        "correct_answer": 2,
+        "explanation": "Habeas Corpus literally means 'produce the body.' It is issued to secure the release of a person detained unlawfully. The court can demand the detaining authority to produce the person before it."
+      },
+      {
+        "id": "jud_q_3",
+        "question": "The Basic Structure Doctrine was established in which landmark case?",
+        "options": ["Golaknath Case (1967)", "Kesavananda Bharati Case (1973)", "Minerva Mills Case (1980)", "Indira Gandhi Case (1975)"],
+        "correct_answer": 1,
+        "explanation": "The Basic Structure Doctrine was established by the Supreme Court in Kesavananda Bharati v. State of Kerala (1973) in a 13-judge bench ruling with 7:6 majority — the largest bench in SC history."
+      },
+      {
+        "id": "jud_q_4",
+        "question": "How many judges are currently authorized in the Supreme Court of India?",
+        "options": ["26", "30", "34", "38"],
+        "correct_answer": 2,
+        "explanation": "Currently, the Supreme Court is authorized to have 34 judges (including the Chief Justice of India). This strength was increased from 31 by the Supreme Court (Number of Judges) Amendment Act, 2019."
+      },
+      {
+        "id": "jud_q_5",
+        "question": "Which Article establishes the Supreme Court of India?",
+        "options": ["Article 120", "Article 124", "Article 128", "Article 130"],
+        "correct_answer": 1,
+        "explanation": "Article 124 of the Constitution establishes the Supreme Court of India and deals with the appointment and conditions of service of judges of the Supreme Court."
+      }
+    ],
+    "spin_topics": ["Habeas Corpus", "PIL", "Article 32", "Collegium", "Judicial Review", "CJI", "Basic Structure", "HC"]
+  }
+}
