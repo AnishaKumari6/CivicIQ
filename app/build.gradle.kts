@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -15,6 +16,8 @@ android {
         versionCode = 1
         versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        val clientId = project.findProperty("GOOGLE_CLIENT_ID") as String? ?: "\"\""
+        buildConfigField("String", "WEB_CLIENT_ID", clientId)
     }
 
     buildTypes {
@@ -30,8 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-    buildFeatures {
+buildFeatures {
         compose = true
+        buildConfig = true 
     }
 }
 
@@ -87,4 +91,20 @@ dependencies {
     // Debug
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+      // Import the Firebase BoM
+  implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
+
+
+  // TODO: Add the dependencies for Firebase products you want to use
+  // When using the BoM, don't specify versions in Firebase dependencies
+  // https://firebase.google.com/docs/android/setup#available-libraries
+  // Firebase BoM (Bill of Materials - keeps versions synced)
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+    implementation("com.google.firebase:firebase-auth")
+
+    // Android Credential Manager (Required for modern Google Sign-In)
+    implementation("androidx.credentials:credentials:1.3.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
 }

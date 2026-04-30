@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "320269285643",
+    "project_id": "civiciq-c86f1",
+    "storage_bucket": "civiciq-c86f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320269285643:android:ef109475d5cb3ee58d4a0e",
+        "android_client_info": {
+          "package_name": "com.civiciq.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz4KWG0ADe5sj9kfyvsKnargWm_uhgO58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

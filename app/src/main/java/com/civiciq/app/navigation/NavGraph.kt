@@ -9,15 +9,24 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.civiciq.app.auth.AuthState
+import com.civiciq.app.auth.AuthViewModel
 import com.civiciq.app.data.local.ContentRepository
 import com.civiciq.app.data.local.DataStoreManager
 import com.civiciq.app.ui.screens.*
+import androidx.compose.runtime.getValue
 
 @Composable
-fun CivicIQNavGraph(navController: NavHostController) {
+fun CivicIQNavGraph(
+    navController: NavHostController,
+    authViewModel: AuthViewModel
+) {
     val context = LocalContext.current
     val repository = ContentRepository(context)
     val dataStoreManager = DataStoreManager(context)
+
+    val authState by authViewModel.authState.collectAsStateWithLifecycle()
 
     NavHost(
         navController = navController,
@@ -54,10 +63,27 @@ fun CivicIQNavGraph(navController: NavHostController) {
             exitTransition = { fadeOut(tween(500)) }
         ) {
             SplashScreen(onNavigateToHome = {
-                navController.navigate(Screen.Home.route) {
+                val destination = if (authState is AuthState.Authenticated) {
+                    Screen.Home.route
+                } else {
+                    Screen.Login.route
+                }
+                
+                navController.navigate(destination) {
                     popUpTo(Screen.Splash.route) { inclusive = true }
                 }
             })
+        }
+
+        composable(Screen.Login.route) {
+            LoginScreen(
+                viewModel = authViewModel,
+                onLoginSuccess = {
+                    navController.navigate(Screen.Home.route) {
+                        popUpTo(Screen.Login.route) { inclusive = true }
+                    }
+                }
+            )
         }
 
         composable(Screen.Home.route) {
@@ -77,7 +103,13 @@ fun CivicIQNavGraph(navController: NavHostController) {
         composable(Screen.Settings.route) {
             SettingsScreen(
                 dataStoreManager = dataStoreManager,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onSignOutClick = {
+                    authViewModel.signOut()
+                    navController.navigate(Screen.Login.route) {
+                        popUpTo(0) { inclusive = true }
+                    }
+                }
             )
         }
 

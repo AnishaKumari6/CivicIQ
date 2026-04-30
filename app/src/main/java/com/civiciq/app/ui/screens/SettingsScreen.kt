@@ -7,6 +7,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ExitToApp
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -26,7 +27,8 @@ import kotlinx.coroutines.launch
 @Composable
 fun SettingsScreen(
     dataStoreManager: DataStoreManager,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onSignOutClick: () -> Unit
 ) {
     val isDailyReminder by dataStoreManager.isDailyReminderEnabled.collectAsStateWithLifecycle(false)
     val preferredCategory by dataStoreManager.preferredCategory.collectAsStateWithLifecycle("Legislature")
@@ -175,6 +177,16 @@ fun SettingsScreen(
                             dataStoreManager.clearAllData()
                         }
                     }
+                )
+
+                Spacer(Modifier.height(AppSpacing.sm))
+
+                SettingsNavItem(
+                    icon = Icons.AutoMirrored.Filled.ExitToApp,
+                    iconColor = ErrorColor,
+                    title = "Logout",
+                    subtitle = "Sign out of your account",
+                    onClick = onSignOutClick
                 )
 
                 Spacer(Modifier.height(AppSpacing.sm))

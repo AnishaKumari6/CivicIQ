@@ -3,6 +3,7 @@ package com.civiciq.app.navigation
 sealed class Screen(val route: String) {
     object Splash : Screen("splash")
     object Home : Screen("home")
+    object Login : Screen("login")
     object Progress : Screen("progress")
     object Settings : Screen("settings")
     object About : Screen("about")
