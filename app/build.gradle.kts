@@ -40,6 +40,8 @@ buildFeatures {
 }
 
 dependencies {
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     val composeBom = platform("androidx.compose:compose-bom:2024.12.01")
     implementation(composeBom)
 
@@ -107,4 +109,11 @@ dependencies {
     implementation("androidx.credentials:credentials:1.3.0")
     implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+
+        implementation("androidx.compose.material3:material3:1.3.0")
+        implementation("androidx.compose.ui:ui:1.6.0")
+        implementation("androidx.compose.foundation:foundation:1.6.0")
+        implementation("androidx.compose.animation:animation:1.6.0")
+
 }

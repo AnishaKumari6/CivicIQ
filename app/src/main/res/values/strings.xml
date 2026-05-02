@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CivicIQ</string>
+    <string name="title_activity_constitution_chatbot">ConstitutionChatbot</string>
 </resources>

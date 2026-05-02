@@ -18,12 +18,12 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.civiciq.app.auth.AuthState
 import com.civiciq.app.auth.AuthViewModel
 
-// Extracted colors matching your Home Screen aesthetic
+
 val PrimaryBlue = Color(0xFF5B81FF)
 val CardDark = Color(0xFF1E2038)
 val SurfacePurple = Color(0xFF382F5C)
 val TextGray = Color(0xFFA0A3BD)
-val BackgroundDark = Color(0xFF0B0D1B) // Deep navy background
+val BackgroundDark = Color(0xFF0B0D1B)
 
 @Composable
 fun LoginScreen(
@@ -45,12 +45,12 @@ fun LoginScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(BackgroundDark) // Forces the deep navy background
+            .background(BackgroundDark)
             .padding(horizontal = 32.dp),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // App Logo/Icon (Matching the home screen's CivicIQ icon)
+        // App Logo/Icon
         Icon(
             imageVector = Icons.Filled.AccountBalance,
             contentDescription = "CivicIQ Logo",
@@ -212,7 +212,7 @@ fun AuthForm(
 
     Spacer(modifier = Modifier.height(24.dp))
 
-    // Mode Toggle (Clean text at the bottom)
+    // Mode Toggle
     TextButton(
         onClick = onModeToggle,
         modifier = Modifier.fillMaxWidth()
